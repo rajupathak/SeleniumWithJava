@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.seleniumwithjavascript.listeners.ExtentReporterNG"/>
+  </listeners>
+  <test name="SanityTest(failed)">
+    <classes>
+      <class name="com.seleniumwithjavascript.DemoJavaScript">
+        <methods>
+          <include name="init"/>
+          <include name="executeJavascript"/>
+        </methods>
+      </class> <!-- com.seleniumwithjavascript.DemoJavaScript -->
+    </classes>
+  </test> <!-- SanityTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

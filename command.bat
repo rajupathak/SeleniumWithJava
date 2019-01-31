@@ -1,0 +1,1 @@
+winscp.com root:arthur@10.92.19.48 /command "put C:\Users\rajepath\Documents\LicenseBackUp\ /tmp/
